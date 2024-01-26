@@ -1,18 +1,27 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <div class="homepage" style="background-color: yellow">
+    <div id="image-container" style="text-align: center; margin-bottom: 20px">
+      <img src="@/assets/bell.png" alt="" />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-sm-6">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="options">
+              
+              <p style="font-size: 24px; font-weight: bold; margin-bottom: 20px;">
+                Dobrodošli na YOURPLAN!
+
+Pronađi svog trenera i ostvari svoje fitness ciljeve danas.
+ Postani najbolja verzija sebe uz podršku stručnjaka. Pridruži se zajednici koja dijeli tvoj entuzijazam za zdravim životom.
+  Učlani se sada i kreni prema novom tebi!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
   </div>
 </template>
-
-<script lang="ts">
-import { defineComponent } from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
-
-export default defineComponent({
-  name: 'HomeView',
-  components: {
-    HelloWorld,
-  },
-});
-</script>
