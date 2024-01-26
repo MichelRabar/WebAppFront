@@ -23,7 +23,7 @@
     },
     methods: {
       signupUser() {
-        // Ovdje dodajte logiku za registraciju korisnika
+       
         console.log('Registriran korisnik:', this.username);
       }
     }
