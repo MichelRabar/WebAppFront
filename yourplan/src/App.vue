@@ -14,10 +14,10 @@
             <router-link class="nav-link" to="/about">About</router-link>
           </li>
         </ul>
-        <!-- Dodani gumbi za login i sign in -->
+        
         <div class="auth-buttons ml-auto">
-          <router-link to="/login" class="btn btn-outline-success my-2 my-sm-0">Login</router-link>
-          <router-link to="/signin" class="btn btn-outline-info my-2 my-sm-0">Sign In</router-link>
+          <router-link to="/LoginV" class="btn btn-outline-success my-2 my-sm-0">Login</router-link>
+          <router-link to="/SignupV" class="btn btn-outline-info my-2 my-sm-0">Sign Up</router-link>
         </div>
       </div>
     </nav>
