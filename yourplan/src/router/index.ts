@@ -9,14 +9,14 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/login',
-    name: 'login',
-    component: () => import('../views/login.vue')
+    path: '/LoginV',
+    name: 'Login',
+    component: () => import('../views/LoginV.vue')
   },
   {
-    path: '/signup',
-    name: 'signup',
-    component: () => import('../views/signup.vue')
+    path: '/SignupV',
+    name: 'Signup',
+    component: () => import('../views/SignupV.vue')
   }
 ];
 

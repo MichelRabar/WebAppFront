@@ -1,3 +1,5 @@
+<!-- login.vue -->
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <div>
       <h2>Login</h2>
