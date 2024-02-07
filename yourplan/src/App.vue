@@ -22,6 +22,26 @@
       </div>
     </nav>
     <router-view/>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>Radno vrijeme: 08:00 - 20:00</p>
+          </div>
+          <div class="col text-center">
+            <div class="footer-icons">
+              <a href="#"><img src="@/assets/youtube.png" alt="YouTube Icon" class="footer-icon" /></a>
+              <a href="#"><img src="@/assets/instagram.png" alt="Instagram Icon" class="footer-icon" /></a>
+              <a href="#"><img src="@/assets/facebook.png" alt="Facebook Icon" class="footer-icon" /></a>
+              <span class="fake-number">1234</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
   </div>
 </template>
 
@@ -38,5 +58,23 @@
 .auth-buttons {
   display: flex;
   align-items: center;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 20px 0;
+}
+
+.footer-icons a {
+  margin: 0 10px;
+}
+
+.footer-icon {
+  width: 2vw;
+}
+
+.fake-number {
+  font-size: 18px;
+  margin-left: 10px;
 }
 </style>
