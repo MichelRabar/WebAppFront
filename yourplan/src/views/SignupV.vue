@@ -1,5 +1,5 @@
 <template>
-  <div class="signup-page" style="background-color: yellow">
+  <div class="signup-page" style="background-color: lightblue">
     <div id="image-container" style="text-align: center; margin-bottom: 20px">
       <img src="@/assets/bell.png" alt="Bell Image" />
     </div>

@@ -23,25 +23,29 @@
     </nav>
     <router-view/>
 
-    <!-- Footer -->
+    
     <footer class="footer">
       <div class="container">
         <div class="row">
-          <div class="col">
-            <p>Radno vrijeme: 08:00 - 20:00</p>
+          <div class="col-md">
+            <p>Radno vrijeme:</p>
+            <p>Pon-Pet: 08:00 - 20:00</p>
+            <p>Sub: 08:00 - 13:00</p>
           </div>
-          <div class="col text-center">
+          <div class="col-md text-center">
+            <p>Kontaktirajte nas</p>
             <div class="footer-icons">
               <a href="#"><img src="@/assets/youtube.png" alt="YouTube Icon" class="footer-icon" /></a>
               <a href="#"><img src="@/assets/instagram.png" alt="Instagram Icon" class="footer-icon" /></a>
               <a href="#"><img src="@/assets/facebook.png" alt="Facebook Icon" class="footer-icon" /></a>
-              <span class="fake-number">1234</span>
+              <p></p>
+              
+              <p><span class="fake-number">091-767-0634</span></p>
             </div>
           </div>
         </div>
       </div>
     </footer>
-    <!-- Footer -->
   </div>
 </template>
 
