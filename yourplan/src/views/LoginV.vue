@@ -42,7 +42,7 @@ export default {
         username: this.username,
         password: this.password
       });
-      // Ovdje možete dodati logiku za prijavu korisnika
+      
     }
   }
 };

@@ -52,7 +52,7 @@ export default {
         password: this.password,
         confirmPassword: this.confirmPassword
       });
-      // Ovdje možete dodati logiku za registraciju korisnika
+      
     }
   }
 };
