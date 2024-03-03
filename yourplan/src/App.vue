@@ -13,6 +13,9 @@
           <li class="nav-item">
             <router-link class="nav-link" to="/TreneriView">Treneri</router-link>
           </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/MealprepView">Plan your meals</router-link>
+          </li>
         </ul>
         
         <div class="auth-buttons ml-auto">
