@@ -11,6 +11,10 @@
   "devDependencies": {
     "@babel/core": "^7.23.9",
     "@babel/node": "^7.23.9",
-    "@babel/preset-env": "^7.23.9"
+    "@babel/preset-env": "^7.23.9",
+    "@vue/cli-service": "^5.0.8"
+  },
+  "dependencies": {
+    "vue": "^3.5.4"
   }
 }
