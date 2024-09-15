@@ -3,8 +3,10 @@ YOURPLAN
 Dobrodošli u YourPlan, ultimativnu platformu za sve koji žele preuzeti kontrolu nad svojom kondicijom i prehranom. Bilo da ste fitness entuzijast ili tek započinjete, YourPlan vas povezuje s vrhunskim osobnim trenerima koji vam pružaju prilagođene trening rutine i nutritivne recepte.
 
 
-Link za javni prototip 🔗
+Link za javni prototip i video🔗
 [https://projekt-web-apps-frontend.vercel.app/](https://web-app-front-alpha.vercel.app/)
+
+https://youtu.be/EK61b-Y75Dk
 
 Zaduženja 👨‍💻
 MICHEL RABAR je zadužen za izvršavanje cijelog projekta.
