@@ -73,14 +73,14 @@ export default {
       }
 
       try {
-        // Prvi deo - registracija korisnika
+        // Prvi dio - registracija korisnika
         await axios.post('http://localhost:5000/api/users/register', formData, {
           headers: {
             'Content-Type': 'multipart/form-data'
           }
         });
 
-        // Drugi deo - automatsko prijavljivanje nakon registracije
+        // Drugi dio - automatsko prijavljivanje nakon registracije
         const loginData = {
           username: this.formData.username,
           lozinka: this.formData.lozinka
@@ -91,7 +91,7 @@ export default {
         // Spremanje tokena u localStorage
         localStorage.setItem('token', response.data.token);
 
-        // Usmeravanje na početnu stranicu ili drugu stranicu
+        // Usmjeravanje na početnu stranicu ili drugu stranicu
         router.push('/');
 
       } catch (error) {

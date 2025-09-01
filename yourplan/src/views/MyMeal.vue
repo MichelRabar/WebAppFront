@@ -41,7 +41,7 @@
         // Dohvati korisnički ID s API poziva
         const token = localStorage.getItem('token');
         if (token) {
-          // Pretpostavljamo da imate API koji vraća korisničke podatke
+          // Pretpostavljamo da imamo API koji vraća korisničke podatke
           const userResponse = await axios.get('http://localhost:5000/api/users/profile', {
             headers: {
               'Authorization': `Bearer ${token}`

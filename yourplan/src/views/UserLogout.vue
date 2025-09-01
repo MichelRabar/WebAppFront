@@ -14,7 +14,7 @@
         // Obrisi token iz localStorage
         localStorage.removeItem('token');
   
-        // Preusmeri korisnika na stranicu za prijavu ili početnu stranu
+        // Preusmjeri korisnika na stranicu za prijavu ili početnu stranu
         this.$router.push('/login');
       }
     }
@@ -22,6 +22,6 @@
   </script>
   
   <style scoped>
-  /* Dodaj stilove po potrebi */
+  
   </style>
   

@@ -33,7 +33,7 @@ export default {
         const response = await axios.post('http://localhost:5000/api/users/login', this.form);
         localStorage.setItem('token', response.data.token); // Čuvanje JWT tokena
         alert('Prijava uspešna');
-        this.$router.push('/profile'); // Redirekcija na profil ili neku drugu stranicu
+        this.$router.push('/profile'); // Preusmjeravanje na profil ili neku drugu stranicu
       } catch (error) {
         console.error('Greška pri prijavi:', error);
         alert('Greška pri prijavi');
